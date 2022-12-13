@@ -2,6 +2,7 @@ import Image from "next/legacy/image"
 import React, { useEffect, useState } from "react"
 import { Movie } from "../typings"
 import { baseUrl } from "../constants/movie"
+import { FaPlay } from "react-icons/fa"
 import { InformationCircleIcon } from "@heroicons/react/24/solid"
 interface Props {
   netflixOriginals: Movie[]
