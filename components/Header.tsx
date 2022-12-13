@@ -1,6 +1,6 @@
 // import {logo} from "../asset/img/logo.svg"
 import { HiSearch } from "react-icons/hi"
-import Image from "next/legacy/image";
+import Image from "next/legacy/image"
 import { BellIcon } from "@heroicons/react/24/solid"
 import Link from "next/link"
 import { useEffect, useState } from "react"
@@ -22,7 +22,7 @@ function Header() {
     }
   }, [])
   return (
-    <header className={`${scroll && "bg-slate-500"}`}>
+    <header className={`${scroll && "bg-black"}`}>
       <div className="flex items-center space-x-2 md:space-x-10">
         <img
           src="https://rb.gy/ulxxee"
